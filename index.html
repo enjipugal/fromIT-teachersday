@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Teachers' Day ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-heart-fill"></i>
+                Teachers' Day
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#letters">
+                            Letters
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <section id="home" class="hero-section">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <div class="heart-icon">
+
+                    <i class="bi bi-heart-fill"></i>
+
+                </div>
+
+                <p class="small-title">
+                    A SPECIAL MESSAGE
+                </p>
+
+                <h1>
+                    Happy Teachers' Day!
+                </h1>
+
+                <p class="hero-text">
+
+                    To the teachers who inspire us,
+                    guide us, and help us become better
+                    every day.
+
+                </p>
+
+                <a
+                    href="#letters"
+                    class="btn btn-main">
+
+                    <i class="bi bi-envelope-heart-fill"></i>
+
+                    View Letters
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="letters" class="letters-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="small-title">
+                    FROM YOUR STUDENTS
+                </p>
+
+                <h2>
+                    Letters of Appreciation
+                </h2>
+
+                <p>
+                    Each letter is privately protected
+                    with a unique PIN.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4 justify-content-center">
+
+
+                <!-- Michelle -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="teacher-card">
+
+                        <h3>
+                            Ma'am Michelle I. Garcia
+                        </h3>
+
+                        <span class="teacher-role">
+                            Instructor
+                        </span>
+
+                        <p>
+
+                            A special Teachers' Day message
+                            prepared with appreciation
+                            and gratitude.
+
+                        </p>
+
+                        <div class="card-buttons">
+
+                            <button
+                                type="button"
+                                class="btn btn-open"
+                                onclick="openTeacherLetter('Ma\'am Michelle Garcia')">
+
+                                <i class="bi bi-lock-fill"></i>
+
+                                Open Letter
+
+                            </button>
+
+                            <button
+                                type="button"
+                                class="btn btn-download"
+                                onclick="downloadTeacherLetter('Ma\'am Michelle Garcia')"
+                                aria-label="Download Michelle's letter">
+
+                                <i class="bi bi-download"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Armie -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="teacher-card">
+
+                        <h3>
+                            Ma'am Armie Q. Valencia
+                        </h3>
+
+                        <span class="teacher-role">
+                            Instructor
+                        </span>
+
+                        <p>
+
+                            A heartfelt letter of appreciation
+                            for your guidance and support.
+
+                        </p>
+
+                        <div class="card-buttons">
+
+                            <button
+                                type="button"
+                                class="btn btn-open"
+                                onclick="openTeacherLetter('Ma\'am Armie Q. Valencia')">
+
+                                <i class="bi bi-lock-fill"></i>
+
+                                Open Letter
+
+                            </button>
+
+                            <button
+                                type="button"
+                                class="btn btn-download"
+                                onclick="downloadTeacherLetter('Ma\'am Armie Q. Valencia')"
+                                aria-label="Download Armie's letter">
+
+                                <i class="bi bi-download"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Jerwin -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="teacher-card">
+
+                        <h3>
+                            Sir Jerwin C. Catambing
+                        </h3>
+
+                        <span class="teacher-role">
+                            Instructor
+                        </span>
+
+                        <p>
+
+                            A special message of appreciation
+                            for the lessons and experiences
+                            you share with us.
+
+                        </p>
+
+                        <div class="card-buttons">
+
+                            <button
+                                type="button"
+                                class="btn btn-open"
+                                onclick="openTeacherLetter('Sir Jerwin Catambing')">
+
+                                <i class="bi bi-lock-fill"></i>
+
+                                Open Letter
+
+                            </button>
+
+                            <button
+                                type="button"
+                                class="btn btn-download"
+                                onclick="downloadTeacherLetter('Sir Jerwin Catambing')"
+                                aria-label="Download Jerwin's letter">
+
+                                <i class="bi bi-download"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dr. Jane -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="teacher-card">
+
+                        <h3>
+                            Dr. Jane M. Fernandez
+                        </h3>
+
+                        <span class="teacher-role">
+                            Dean
+                        </span>
+
+                        <p>
+
+                            A special message of appreciation
+                            for your leadership, guidance,
+                            and dedication to our IT community.
+
+                        </p>
+
+                        <div class="card-buttons">
+
+                            <button
+                                type="button"
+                                class="btn btn-open"
+                                onclick="openTeacherLetter('Dr. Jane Fernandez')">
+
+                                <i class="bi bi-lock-fill"></i>
+
+                                Open Letter
+
+                            </button>
+
+                            <button
+                                type="button"
+                                class="btn btn-download"
+                                onclick="downloadTeacherLetter('Dr. Jane Fernandez')"
+                                aria-label="Download Jane's letter">
+
+                                <i class="bi bi-download"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about-section">
+
+        <div class="container">
+
+            <div class="about-box">
+
+                <div class="about-icon">
+
+                    <i class="bi bi-stars"></i>
+
+                </div>
+
+                <h2>
+                    Thank You, Teachers
+                </h2>
+
+                <p>
+
+                    Thank you for sharing your knowledge,
+                    patience, experiences, and guidance
+                    with us. Your lessons go beyond the
+                    classroom and continue to inspire us
+                    to learn and do better.
+
+                </p>
+
+                <div class="about-heart">
+
+                    <i class="bi bi-heart-fill"></i>
+
+                </div>
+
+                <p class="signature">
+                    From your IT Students
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div
+        class="modal fade"
+        id="pinModal"
+        tabindex="-1"
+        aria-labelledby="pinTeacherName"
+        aria-hidden="true"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content pin-modal">
+
+                <div class="pin-lock-screen">
+
+                    <button
+                        type="button"
+                        class="pin-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+
+                        <i class="bi bi-x-lg"></i>
+
+                    </button>
+
+
+                    <div
+                        class="lock-container"
+                        id="lockContainer">
+
+                        <div class="lock-shackle"></div>
+
+                        <div class="lock-body">
+
+                            <i
+                                class="bi bi-lock-fill"
+                                id="lockIcon">
+                            </i>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="pin-small-title">
+                        PRIVATE LETTER
+                    </p>
+
+
+                    <h2>
+                        Enter PIN
+                    </h2>
+
+
+                    <p
+                        class="pin-teacher-name"
+                        id="pinTeacherName">
+
+                        Teacher
+
+                    </p>
+
+
+                    <p class="pin-description">
+
+                        Enter the 4-digit PIN to unlock
+                        this special letter.
+
+                    </p>
+
+
+                    <div
+                        class="pin-dots"
+                        id="pinDots">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+
+                    <div
+                        class="pin-error"
+                        id="pinError">
+
+                        <i class="bi bi-exclamation-circle"></i>
+
+                        Incorrect PIN. Please try again.
+
+                    </div>
+
+
+                    <div class="number-pad">
+
+                        <button
+                            type="button"
+                            onclick="enterPin('1')">
+                            1
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('2')">
+                            2
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('3')">
+                            3
+                        </button>
+
+
+                        <button
+                            type="button"
+                            onclick="enterPin('4')">
+                            4
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('5')">
+                            5
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('6')">
+                            6
+                        </button>
+
+
+                        <button
+                            type="button"
+                            onclick="enterPin('7')">
+                            7
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('8')">
+                            8
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('9')">
+                            9
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="empty-key"
+                            disabled>
+                        </button>
+
+                        <button
+                            type="button"
+                            onclick="enterPin('0')">
+                            0
+                        </button>
+
+                        <button
+                            type="button"
+                            class="delete-key"
+                            onclick="deletePin()"
+                            aria-label="Delete">
+
+                            <i class="bi bi-backspace-fill"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <p class="pin-footer">
+
+                        <i class="bi bi-shield-lock-fill"></i>
+
+                        This letter is privately protected.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="modal fade"
+        id="letterModal"
+        tabindex="-1"
+        aria-labelledby="letterModalTitle"
+        aria-hidden="true">
+
+        <div
+            class="modal-dialog modal-xl modal-dialog-centered">
+
+            <div class="modal-content letter-modal">
+
+                <div class="modal-header">
+
+                    <h5
+                        class="modal-title"
+                        id="letterModalTitle">
+
+                        Letter
+
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+
+                </div>
+
+
+                <div class="modal-body letter-viewer">
+
+                    <iframe
+                        id="letterFrame"
+                        class="letter-frame"
+                        src=""
+                        title="Teachers' Day Letter">
+                    </iframe>
+
+                    <img
+                        id="letterImage"
+                        class="letter-image"
+                        src=""
+                        alt="Teachers' Day Letter">
+
+                </div>
+
+
+                <div class="modal-footer">
+
+                    <button
+                        type="button"
+                        class="btn btn-close-letter"
+                        data-bs-dismiss="modal">
+
+                        <i class="bi bi-x-lg"></i>
+
+                        Close
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+
+                Made with
+
+                <i class="bi bi-heart-fill"></i>
+
+                by your IT Students
+
+            </p>
+
+            <span>
+                Happy Teachers' Day!
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
